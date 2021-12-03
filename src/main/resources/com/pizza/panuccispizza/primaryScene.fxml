@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ButtonBar?>
+<?import javafx.scene.control.ChoiceBox?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.control.Tab?>
+<?import javafx.scene.control.TabPane?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Text?>
+
+<TabPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="900.0" style="-fx-background-color: dimgray;" tabClosingPolicy="UNAVAILABLE" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1">
+  <tabs>
+    <Tab text="Build-A-Pizza">
+      <content>
+        <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0" style="-fx-background-color: dimgrey;">
+               <children>
+                  <Separator layoutY="108.0" prefHeight="0.0" prefWidth="900.0" style="-fx-background-color: black;" />
+                  <Separator layoutY="259.0" prefWidth="900.0" style="-fx-background-color: black;" />
+                  <Separator layoutY="369.0" prefWidth="900.0" style="-fx-background-color: black;" />
+                  <Text layoutX="56.0" layoutY="61.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Size:" />
+                  <Text layoutX="45.0" layoutY="185.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Toppings:" />
+                  <Text layoutX="53.0" layoutY="318.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Crust:" />
+                  <Text layoutX="354.0" layoutY="62.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Choose size" />
+                  <Text layoutX="573.0" layoutY="139.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Topping 1" />
+                  <Text layoutX="573.0" layoutY="172.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Topping 2" />
+                  <Text layoutX="573.0" layoutY="207.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Topping 3" />
+                  <Text layoutX="573.0" layoutY="240.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Topping 4" />
+                  <Text layoutX="351.0" layoutY="319.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Choose crust" />
+                  <Button layoutX="410.0" layoutY="406.0" mnemonicParsing="false" text="Create Pizza" />
+                  <ChoiceBox layoutX="660.0" layoutY="122.0" prefWidth="200.0" />
+                  <ChoiceBox layoutX="660.0" layoutY="155.0" prefWidth="200.0" />
+                  <ChoiceBox layoutX="660.0" layoutY="190.0" prefWidth="200.0" />
+                  <ChoiceBox layoutX="660.0" layoutY="223.0" prefWidth="200.0" />
+                  <ButtonBar layoutX="417.0" layoutY="294.0" prefHeight="40.0" prefWidth="450.0">
+                    <buttons>
+                      <Button mnemonicParsing="false" prefHeight="25.0" prefWidth="250.0" text="Thin" />
+                        <Button mnemonicParsing="false" text="Pan" />
+                        <Button mnemonicParsing="false" text="Deep Dish" />
+                        <Button mnemonicParsing="false" prefHeight="25.0" text="Cheese-filled" />
+                    </buttons>
+                  </ButtonBar>
+                  <ButtonBar layoutX="417.0" layoutY="37.0" prefHeight="40.0" prefWidth="450.0">
+                    <buttons>
+                      <Button mnemonicParsing="false" prefHeight="25.0" prefWidth="250.0" text="Small" />
+                        <Button mnemonicParsing="false" text="Medium" />
+                        <Button mnemonicParsing="false" text="Large" />
+                        <Button mnemonicParsing="false" prefHeight="25.0" text="Extra Large" />
+                    </buttons>
+                  </ButtonBar>
+               </children></AnchorPane>
+      </content>
+    </Tab>
+    <Tab text="Pizzas">
+      <content>
+        <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0" style="-fx-background-color: dimgray;">
+               <children>
+                  <Separator layoutY="147.0" prefHeight="0.0" prefWidth="900.0" style="-fx-background-color: black;" />
+                  <Separator layoutY="285.0" prefWidth="900.0" style="-fx-background-color: black;" />
+                  <Separator layoutY="440.0" prefWidth="900.0" style="-fx-background-color: black;" />
+                  <Text layoutX="168.0" layoutY="67.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Cheese Pizza" />
+                  <Text layoutX="169.0" layoutY="87.0" strokeType="OUTSIDE" strokeWidth="0.0" text="\$6 per pizza" />
+                  <Text layoutX="152.0" layoutY="207.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Veggie Lover's Pizza" textAlignment="CENTER" wrappingWidth="100.0" />
+                  <Text layoutX="169.0" layoutY="240.0" strokeType="OUTSIDE" strokeWidth="0.0" text="\$7 per pizza" />
+                  <Text layoutX="152.0" layoutY="344.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Veggie Hater's Pizza" textAlignment="CENTER" wrappingWidth="100.0" />
+                  <Text layoutX="169.0" layoutY="378.0" strokeType="OUTSIDE" strokeWidth="0.0" text="\$7 per pizza" />
+                  <Text layoutX="368.0" layoutY="53.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Our signature three-cheese pizza. Perfect for picky eaters, children's parties, and people who enjoy vanilla ice cream." textAlignment="CENTER" wrappingWidth="200.0" />
+                  <Text layoutX="368.0" layoutY="186.0" strokeType="OUTSIDE" strokeWidth="0.0" text="A must-have for people too sophisticated for bland cheese pizza. Instead, sink your teeth into the delectable slimy olives with the mushy tomatoes." textAlignment="CENTER" wrappingWidth="200.0" />
+                  <Text layoutX="368.0" layoutY="348.0" strokeType="OUTSIDE" strokeWidth="0.0" text="In the mood for something with lots of meat and no greens? Look no further!" textAlignment="CENTER" wrappingWidth="200.0" />
+                  <Button layoutX="725.0" layoutY="62.0" mnemonicParsing="false" text="Add to order" />
+                  <Button layoutX="725.0" layoutY="203.0" mnemonicParsing="false" text="Add to order" />
+                  <Button layoutX="725.0" layoutY="348.0" mnemonicParsing="false" text="Add to order" />
+               </children></AnchorPane>
+      </content>
+    </Tab>
+      <Tab text="Sides">
+        <content>
+          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+               <children>
+                  <Separator layoutY="148.0" prefWidth="900.0" style="-fx-background-color: black;" />
+                  <Separator layoutY="292.0" prefWidth="900.0" style="-fx-background-color: black;" />
+                  <Separator layoutY="440.0" prefWidth="900.0" style="-fx-background-color: black;" />
+                  <Text layoutX="261.0" layoutY="76.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Breadsticks" />
+                  <Text layoutX="261.0" layoutY="93.0" strokeType="OUTSIDE" strokeWidth="0.0" text="\$3 per side" />
+                  <Text layoutX="257.0" layoutY="214.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Garlic Bread" />
+                  <Text layoutX="259.0" layoutY="232.0" strokeType="OUTSIDE" strokeWidth="0.0" text="\$2 per side" />
+                  <Text layoutX="274.0" layoutY="358.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Pasta" />
+                  <Text layoutX="259.0" layoutY="375.0" strokeType="OUTSIDE" strokeWidth="0.0" text="\$5 per side" />
+                  <Text layoutX="452.0" layoutY="72.0" strokeType="OUTSIDE" strokeWidth="0.0" text="It's just bread in stick form. Yay, bread!" textAlignment="CENTER" wrappingWidth="200.0" />
+                  <Text layoutX="452.0" layoutY="223.0" strokeType="OUTSIDE" strokeWidth="0.0" text="A great side dish for a first date." textAlignment="CENTER" wrappingWidth="200.0" />
+                  <Text layoutX="452.0" layoutY="353.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Our country-famous pasta, with marinara sauce. Hold your expectations." textAlignment="CENTER" wrappingWidth="200.0" />
+                  <Button layoutX="751.0" layoutY="63.0" mnemonicParsing="false" text="Add to order" />
+                  <Button layoutX="751.0" layoutY="205.0" mnemonicParsing="false" text="Add to order" />
+                  <Button layoutX="751.0" layoutY="353.0" mnemonicParsing="false" text="Add to order" />
+               </children>
+            </AnchorPane>
+        </content>
+      </Tab>
+      <Tab text="Drinks">
+        <content>
+          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+               <children>
+                  <Separator layoutY="140.0" prefWidth="900.0" style="-fx-background-color: black;" />
+                  <Separator layoutY="288.0" prefWidth="900.0" style="-fx-background-color: black;" />
+                  <Separator layoutY="440.0" prefWidth="900.0" style="-fx-background-color: black;" />
+                  <Text layoutX="436.0" layoutY="39.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Soda" />
+                  <Text layoutX="350.0" layoutY="69.0" strokeType="OUTSIDE" strokeWidth="0.0" text="The perfect complement to any pizza. So perfect, in fact, that we considered making it the only drink available." textAlignment="CENTER" wrappingWidth="200.0" />
+                  <Text layoutX="434.0" layoutY="179.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Water" />
+                  <Text layoutX="350.0" layoutY="219.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Like the water from your top, only better!" textAlignment="CENTER" wrappingWidth="200.0" />
+                  <Text layoutX="423.0" layoutY="332.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Sweet Tea" />
+                  <Text layoutX="350.0" layoutY="378.0" strokeType="OUTSIDE" strokeWidth="0.0" text="A Southern delicacy." textAlignment="CENTER" wrappingWidth="200.0" />
+                  <Button layoutX="740.0" layoutY="82.0" mnemonicParsing="false" text="Add to order" />
+                  <Button layoutX="740.0" layoutY="225.0" mnemonicParsing="false" text="Add to order" />
+                  <Button layoutX="740.0" layoutY="382.0" mnemonicParsing="false" text="Add to order" />
+                  <Text layoutX="679.0" layoutY="60.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Size" />
+                  <Text layoutX="679.0" layoutY="200.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Size" />
+                  <Text layoutX="679.0" layoutY="357.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Size" />
+                  <ChoiceBox layoutX="707.0" layoutY="43.0" prefWidth="150.0" />
+                  <ChoiceBox layoutX="707.0" layoutY="183.0" prefWidth="150.0" />
+                  <ChoiceBox layoutX="707.0" layoutY="340.0" prefWidth="150.0" />
+               </children>
+            </AnchorPane>
+        </content>
+      </Tab>
+      <Tab text="Checkout">
+        <content>
+          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+               <children>
+                  <Separator layoutY="90.0" prefWidth="900.0" style="-fx-background-color: black;" />
+                  <Separator layoutY="188.0" prefWidth="900.0" style="-fx-background-color: black;" />
+                  <Separator layoutY="294.0" prefWidth="900.0" style="-fx-background-color: black;" />
+                  <Separator layoutY="381.0" prefWidth="900.0" style="-fx-background-color: black;" />
+                  <Text layoutX="74.0" layoutY="52.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Items:" />
+                  <Text layoutX="74.0" layoutY="145.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Pick-up/Delivery Method:" />
+                  <Text layoutX="74.0" layoutY="249.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Payment Method:" />
+                  <Text layoutX="74.0" layoutY="342.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Total:" />
+                  <Text layoutX="775.0" layoutY="342.0" strokeType="OUTSIDE" strokeWidth="0.0" text="\$" />
+                  <Text layoutX="258.0" layoutY="224.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Choose payment method" />
+                  <Text layoutX="293.0" layoutY="266.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Enter card number" />
+                  <Text layoutX="307.0" layoutY="124.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Choose method" />
+                  <Text layoutX="255.0" layoutY="166.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Enter delivery information" />
+                  <TextField layoutX="403.0" layoutY="249.0" promptText="0000-0000-0000-0000" />
+                  <TextField layoutX="403.0" layoutY="149.0" prefWidth="430.0" promptText="123 Downtown Avenue, Manhatten, Old New York" />
+                  <Button layoutX="433.0" layoutY="414.0" mnemonicParsing="false" text="Submit Order" />
+                  <ChoiceBox layoutX="402.0" layoutY="207.0" prefHeight="25.0" prefWidth="200.0" />
+                  <ButtonBar layoutX="383.0" layoutY="100.0" prefHeight="40.0" prefWidth="450.0">
+                    <buttons>
+                      <Button mnemonicParsing="false" prefHeight="25.0" prefWidth="402.0" text="Pick-up" />
+                        <Button mnemonicParsing="false" prefHeight="25.0" text="Delivery" />
+                    </buttons>
+                  </ButtonBar>
+               </children>
+            </AnchorPane>
+        </content>
+      </Tab>
+  </tabs>
+</TabPane>
