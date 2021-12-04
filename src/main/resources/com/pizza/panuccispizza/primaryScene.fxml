@@ -1,16 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<?import javafx.scene.control.Button?>
-<?import javafx.scene.control.ButtonBar?>
-<?import javafx.scene.control.ChoiceBox?>
-<?import javafx.scene.control.Separator?>
-<?import javafx.scene.control.Tab?>
-<?import javafx.scene.control.TabPane?>
-<?import javafx.scene.control.TextField?>
-<?import javafx.scene.layout.AnchorPane?>
-<?import javafx.scene.text.Text?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
 
-<TabPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="900.0" style="-fx-background-color: dimgray;" tabClosingPolicy="UNAVAILABLE" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1">
+<TabPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="900.0" style="-fx-background-color: dimgray;" tabClosingPolicy="UNAVAILABLE" xmlns="http://javafx.com/javafx/11.0.2" xmlns:fx="http://javafx.com/fxml/1">
   <tabs>
     <Tab text="Build-A-Pizza">
       <content>
@@ -28,25 +22,25 @@
                   <Text layoutX="573.0" layoutY="207.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Topping 3" />
                   <Text layoutX="573.0" layoutY="240.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Topping 4" />
                   <Text layoutX="351.0" layoutY="319.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Choose crust" />
-                  <Button layoutX="410.0" layoutY="406.0" mnemonicParsing="false" text="Create Pizza" />
-                  <ChoiceBox layoutX="660.0" layoutY="122.0" prefWidth="200.0" />
-                  <ChoiceBox layoutX="660.0" layoutY="155.0" prefWidth="200.0" />
-                  <ChoiceBox layoutX="660.0" layoutY="190.0" prefWidth="200.0" />
-                  <ChoiceBox layoutX="660.0" layoutY="223.0" prefWidth="200.0" />
+                  <Button fx:id="createPizza" layoutX="410.0" layoutY="406.0" mnemonicParsing="false" text="Create Pizza" />
+                  <ChoiceBox fx:id="toppingOne" layoutX="660.0" layoutY="122.0" prefWidth="200.0" />
+                  <ChoiceBox fx:id="toppingTwo" layoutX="660.0" layoutY="155.0" prefWidth="200.0" />
+                  <ChoiceBox fx:id="toppingThree" layoutX="660.0" layoutY="190.0" prefWidth="200.0" />
+                  <ChoiceBox fx:id="toppingFour" layoutX="660.0" layoutY="223.0" prefWidth="200.0" />
                   <ButtonBar layoutX="417.0" layoutY="294.0" prefHeight="40.0" prefWidth="450.0">
                     <buttons>
-                      <Button mnemonicParsing="false" prefHeight="25.0" prefWidth="250.0" text="Thin" />
-                        <Button mnemonicParsing="false" text="Pan" />
-                        <Button mnemonicParsing="false" text="Deep Dish" />
-                        <Button mnemonicParsing="false" prefHeight="25.0" text="Cheese-filled" />
+                      <Button fx:id="thinPizza" mnemonicParsing="false" prefHeight="25.0" prefWidth="250.0" text="Thin" />
+                        <Button fx:id="panPizza" mnemonicParsing="false" text="Pan" />
+                        <Button fx:id="deepPizza" mnemonicParsing="false" text="Deep Dish" />
+                        <Button fx:id="stuffedPizza" mnemonicParsing="false" prefHeight="25.0" text="Cheese-filled" />
                     </buttons>
                   </ButtonBar>
                   <ButtonBar layoutX="417.0" layoutY="37.0" prefHeight="40.0" prefWidth="450.0">
                     <buttons>
-                      <Button mnemonicParsing="false" prefHeight="25.0" prefWidth="250.0" text="Small" />
-                        <Button mnemonicParsing="false" text="Medium" />
-                        <Button mnemonicParsing="false" text="Large" />
-                        <Button mnemonicParsing="false" prefHeight="25.0" text="Extra Large" />
+                      <Button fx:id="smallPizza" mnemonicParsing="false" prefHeight="25.0" prefWidth="250.0" text="Small" />
+                        <Button fx:id="mediumPizza" mnemonicParsing="false" text="Medium" />
+                        <Button fx:id="largePizza" mnemonicParsing="false" text="Large" />
+                        <Button fx:id="extraPizza" mnemonicParsing="false" prefHeight="25.0" text="Extra Large" />
                     </buttons>
                   </ButtonBar>
                </children></AnchorPane>
@@ -68,13 +62,13 @@
                   <Text layoutX="368.0" layoutY="53.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Our signature three-cheese pizza. Perfect for picky eaters, children's parties, and people who enjoy vanilla ice cream." textAlignment="CENTER" wrappingWidth="200.0" />
                   <Text layoutX="368.0" layoutY="186.0" strokeType="OUTSIDE" strokeWidth="0.0" text="A must-have for people too sophisticated for bland cheese pizza. Instead, sink your teeth into the delectable slimy olives with the mushy tomatoes." textAlignment="CENTER" wrappingWidth="200.0" />
                   <Text layoutX="368.0" layoutY="348.0" strokeType="OUTSIDE" strokeWidth="0.0" text="In the mood for something with lots of meat and no greens? Look no further!" textAlignment="CENTER" wrappingWidth="200.0" />
-                  <Button layoutX="725.0" layoutY="62.0" mnemonicParsing="false" text="Add to order" />
-                  <Button layoutX="725.0" layoutY="203.0" mnemonicParsing="false" text="Add to order" />
-                  <Button layoutX="725.0" layoutY="348.0" mnemonicParsing="false" text="Add to order" />
+                  <Button fx:id="addCheesePizza" layoutX="725.0" layoutY="62.0" mnemonicParsing="false" text="Add to order" />
+                  <Button fx:id="addVeggiePizza" layoutX="725.0" layoutY="203.0" mnemonicParsing="false" text="Add to order" />
+                  <Button fx:id="addVeggieHaterPizza" layoutX="725.0" layoutY="348.0" mnemonicParsing="false" text="Add to order" />
                </children></AnchorPane>
       </content>
     </Tab>
-      <Tab text="Sides">
+      <Tab fx:id="addBread" text="Sides">
         <content>
           <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
                <children>
@@ -91,8 +85,8 @@
                   <Text layoutX="452.0" layoutY="223.0" strokeType="OUTSIDE" strokeWidth="0.0" text="A great side dish for a first date." textAlignment="CENTER" wrappingWidth="200.0" />
                   <Text layoutX="452.0" layoutY="353.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Our country-famous pasta, with marinara sauce. Hold your expectations." textAlignment="CENTER" wrappingWidth="200.0" />
                   <Button layoutX="751.0" layoutY="63.0" mnemonicParsing="false" text="Add to order" />
-                  <Button layoutX="751.0" layoutY="205.0" mnemonicParsing="false" text="Add to order" />
-                  <Button layoutX="751.0" layoutY="353.0" mnemonicParsing="false" text="Add to order" />
+                  <Button fx:id="addGarlic" layoutX="751.0" layoutY="205.0" mnemonicParsing="false" text="Add to order" />
+                  <Button fx:id="addPasta" layoutX="751.0" layoutY="353.0" mnemonicParsing="false" text="Add to order" />
                </children>
             </AnchorPane>
         </content>
@@ -110,15 +104,15 @@
                   <Text layoutX="350.0" layoutY="219.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Like the water from your top, only better!" textAlignment="CENTER" wrappingWidth="200.0" />
                   <Text layoutX="423.0" layoutY="332.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Sweet Tea" />
                   <Text layoutX="350.0" layoutY="378.0" strokeType="OUTSIDE" strokeWidth="0.0" text="A Southern delicacy." textAlignment="CENTER" wrappingWidth="200.0" />
-                  <Button layoutX="740.0" layoutY="82.0" mnemonicParsing="false" text="Add to order" />
-                  <Button layoutX="740.0" layoutY="225.0" mnemonicParsing="false" text="Add to order" />
-                  <Button layoutX="740.0" layoutY="382.0" mnemonicParsing="false" text="Add to order" />
+                  <Button fx:id="addSoda" layoutX="740.0" layoutY="82.0" mnemonicParsing="false" text="Add to order" />
+                  <Button fx:id="addWater" layoutX="740.0" layoutY="225.0" mnemonicParsing="false" text="Add to order" />
+                  <Button fx:id="addTea" layoutX="740.0" layoutY="382.0" mnemonicParsing="false" text="Add to order" />
                   <Text layoutX="679.0" layoutY="60.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Size" />
                   <Text layoutX="679.0" layoutY="200.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Size" />
                   <Text layoutX="679.0" layoutY="357.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Size" />
-                  <ChoiceBox layoutX="707.0" layoutY="43.0" prefWidth="150.0" />
-                  <ChoiceBox layoutX="707.0" layoutY="183.0" prefWidth="150.0" />
-                  <ChoiceBox layoutX="707.0" layoutY="340.0" prefWidth="150.0" />
+                  <ChoiceBox fx:id="sodaSize" layoutX="707.0" layoutY="43.0" prefWidth="150.0" />
+                  <ChoiceBox fx:id="waterSize" layoutX="707.0" layoutY="183.0" prefWidth="150.0" />
+                  <ChoiceBox fx:id="teaSize" layoutX="707.0" layoutY="340.0" prefWidth="150.0" />
                </children>
             </AnchorPane>
         </content>
@@ -140,14 +134,14 @@
                   <Text layoutX="293.0" layoutY="266.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Enter card number" />
                   <Text layoutX="307.0" layoutY="124.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Choose method" />
                   <Text layoutX="255.0" layoutY="166.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Enter delivery information" />
-                  <TextField layoutX="403.0" layoutY="249.0" promptText="0000-0000-0000-0000" />
-                  <TextField layoutX="403.0" layoutY="149.0" prefWidth="430.0" promptText="123 Downtown Avenue, Manhatten, Old New York" />
-                  <Button layoutX="433.0" layoutY="414.0" mnemonicParsing="false" text="Submit Order" />
-                  <ChoiceBox layoutX="402.0" layoutY="207.0" prefHeight="25.0" prefWidth="200.0" />
+                  <TextField fx:id="enterCard" layoutX="403.0" layoutY="249.0" promptText="0000-0000-0000-0000" />
+                  <TextField fx:id="enterDeliveryInfo" layoutX="403.0" layoutY="149.0" prefWidth="430.0" promptText="123 Downtown Avenue, Manhatten, Old New York" />
+                  <Button fx:id="submitOrder" layoutX="433.0" layoutY="414.0" mnemonicParsing="false" text="Submit Order" />
+                  <ChoiceBox fx:id="paymentMethod" layoutX="402.0" layoutY="207.0" prefHeight="25.0" prefWidth="200.0" />
                   <ButtonBar layoutX="383.0" layoutY="100.0" prefHeight="40.0" prefWidth="450.0">
                     <buttons>
-                      <Button mnemonicParsing="false" prefHeight="25.0" prefWidth="402.0" text="Pick-up" />
-                        <Button mnemonicParsing="false" prefHeight="25.0" text="Delivery" />
+                      <Button fx:id="choosePickup" mnemonicParsing="false" prefHeight="25.0" prefWidth="402.0" text="Pick-up" />
+                        <Button fx:id="chooseDelivery" mnemonicParsing="false" prefHeight="25.0" text="Delivery" />
                     </buttons>
                   </ButtonBar>
                </children>
