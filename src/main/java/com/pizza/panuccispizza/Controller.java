@@ -15,43 +15,15 @@ public class Controller {
     private Scene scene;
     private Parent root;
 
-    public void switchToBuilder(ActionEvent event) throws IOException {
+    public void switchToPrimary(ActionEvent event) throws IOException {
         Parent root = FXMLLoader.load(getClass().getResource("builderScene.fxml"));
         stage = (Stage) ((Node) event.getSource()).getScene().getWindow();
         scene = new Scene(root);
         stage.setScene(scene);
         stage.show();
     }
-    public void switchToPizza(ActionEvent event) throws IOException {
-        Parent root = FXMLLoader.load(getClass().getResource("pizzaScene.fxml"));
-        stage = (Stage)((Node)event.getSource()).getScene().getWindow();
-        scene = new Scene(root);
-        stage.setScene(scene);
-        stage.show();
-    }
-    public void switchToSides(ActionEvent event) throws IOException {
-        Parent root = FXMLLoader.load(getClass().getResource("pizzaScene.fxml"));
-        stage = (Stage) ((Node) event.getSource()).getScene().getWindow();
-        scene = new Scene(root);
-        stage.setScene(scene);
-        stage.show();
-    }
-    public void switchToDrinks(ActionEvent event) throws IOException {
-        Parent root = FXMLLoader.load(getClass().getResource("pizzaScene.fxml"));
-        stage = (Stage) ((Node) event.getSource()).getScene().getWindow();
-        scene = new Scene(root);
-        stage.setScene(scene);
-        stage.show();
-    }
-    public void switchToCheckout(ActionEvent event) throws IOException {
-        Parent root = FXMLLoader.load(getClass().getResource("pizzaScene.fxml"));
-        stage = (Stage) ((Node) event.getSource()).getScene().getWindow();
-        scene = new Scene(root);
-        stage.setScene(scene);
-        stage.show();
-    }
-    public void switchToReceipt(ActionEvent event) throws IOException {
-        Parent root = FXMLLoader.load(getClass().getResource("pizzaScene.fxml"));
+    public void switchToFinal(ActionEvent event) throws IOException {
+        Parent root = FXMLLoader.load(getClass().getResource("pizzaFinal.fxml"));
         stage = (Stage) ((Node) event.getSource()).getScene().getWindow();
         scene = new Scene(root);
         stage.setScene(scene);
