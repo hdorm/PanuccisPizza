@@ -1,0 +1,23 @@
+.primary-color{
+    -fx-background-color: #383838;
+}
+
+.secondary-color{
+    -fx-background-color: #282828;
+}
+
+.tab-header-background{
+    -fx-background-color: #282828;
+}
+
+.tab{
+    -fx-background-color: #383838;
+    -fx-font-family: SansSerif;
+    -fx-text-base-color: white;
+    -fx-font-weight: bold;
+    -fx-focus-color: white;
+}
+
+.button:focused{
+    -fx-background-color: #585858;
+}

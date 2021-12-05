@@ -28,9 +28,9 @@ public class primaryController implements Initializable {
     private ChoiceBox<String> paymentMethod;
 
     //creates ChoiceBox options
-    private String[] toppings = {"Cheese", "Pepperoni", "Sausage", "Ham", "Olives", "Mushrooms", "Bell Peppers", "Pineapple", "Nothing"};
-    private String[] drinks = {"Small: $1", "Medium: $2", "Large: $3"};
-    private String[] payment = {"Card", "Cash", "Check"};
+    private final String[] toppings = {"Cheese", "Pepperoni", "Sausage", "Ham", "Olives", "Mushrooms", "Bell Peppers", "Pineapple", "Nothing"};
+    private final String[] drinks = {"Small: $1", "Medium: $2", "Large: $3"};
+    private final String[] payment = {"Card", "Cash", "Check"};
 
     //initializes the ChoiceBoxes
     @Override

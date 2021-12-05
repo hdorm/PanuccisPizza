@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.*?>
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="244.0" prefWidth="345.0" styleClass="secondary-color" stylesheets="@../../../styles/darkMode.css" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.pizza.panuccispizza.switchController">
+   <children>
+      <Button fx:id="createAccountButton" layoutX="121.0" layoutY="202.0" mnemonicParsing="false" styleClass="primary-color" text="Create Account" textFill="WHITE">
+         <font>
+            <Font name="SansSerif Bold" size="12.0" />
+         </font>
+      </Button>
+      <Button fx:id="loginButton" layoutX="144.0" layoutY="171.0" mnemonicParsing="false" onAction="#switchToPrimary" prefHeight="25.0" prefWidth="59.0" styleClass="primary-color" text="Log-in" textFill="WHITE">
+         <font>
+            <Font name="SansSerif Bold" size="12.0" />
+         </font>
+      </Button>
+      <Label alignment="CENTER" layoutX="46.0" layoutY="18.0" prefHeight="64.0" prefWidth="270.0" text="Panucci's Pizza" textFill="#ff4949">
+         <font>
+            <Font name="SansSerif Bold" size="28.0" />
+         </font>
+      </Label>
+      <TextField alignment="CENTER" layoutX="79.0" layoutY="129.0" prefWidth="190.0" promptText="Phone Number" styleClass="primary-color">
+         <font>
+            <Font name="SansSerif Bold" size="12.0" />
+         </font>
+      </TextField>
+      <TextField alignment="CENTER" layoutX="79.0" layoutY="99.0" prefHeight="23.0" prefWidth="190.0" promptText="Full Name" styleClass="primary-color">
+         <font>
+            <Font name="SansSerif Bold" size="12.0" />
+         </font>
+      </TextField>
+      <ImageView fitHeight="31.0" fitWidth="27.0" layoutX="46.0" layoutY="37.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../menuimages/pizzaemoji.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>

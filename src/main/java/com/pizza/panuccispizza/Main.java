@@ -12,7 +12,7 @@ public class Main extends Application {
     @Override
     public void start(Stage stage) {
         try {
-            Parent root = FXMLLoader.load(getClass().getResource("loginScene.fxml"));
+            Parent root = FXMLLoader.load(getClass().getResource("/fxml/loginScene.fxml"));
             Scene scene = new Scene(root);
             stage.setTitle("Panucci's Pizza");
             stage.getIcons().add(new Image("/tinypizzaicon.png"));
