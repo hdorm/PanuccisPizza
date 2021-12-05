@@ -7,6 +7,8 @@
 <?import javafx.scene.control.Tab?>
 <?import javafx.scene.control.TabPane?>
 <?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.Font?>
 <?import javafx.scene.text.Text?>
@@ -114,39 +116,39 @@
                   <Separator layoutY="147.0" prefHeight="0.0" prefWidth="900.0" style="-fx-background-color: red;" />
                   <Separator layoutY="285.0" prefWidth="900.0" style="-fx-background-color: red;" />
                   <Separator layoutY="440.0" prefWidth="900.0" style="-fx-background-color: red;" />
-                  <Text fill="WHITE" layoutX="202.0" layoutY="67.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Cheese Pizza">
+                  <Text fill="WHITE" layoutX="240.0" layoutY="67.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Cheese Pizza">
                      <font>
                         <Font name="SansSerif Bold" size="16.0" />
                      </font></Text>
-                  <Text fill="WHITE" layoutX="208.0" layoutY="90.0" strokeType="OUTSIDE" strokeWidth="0.0" text="\$6 per pizza">
+                  <Text fill="WHITE" layoutX="245.0" layoutY="90.0" strokeType="OUTSIDE" strokeWidth="0.0" text="\$6 per pizza">
                      <font>
                         <Font name="SansSerif Bold" size="16.0" />
                      </font></Text>
-                  <Text fill="WHITE" layoutX="178.0" layoutY="198.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Veggie Lover's Pizza" textAlignment="CENTER" wrappingWidth="150.0">
+                  <Text fill="WHITE" layoutX="216.0" layoutY="199.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Veggie Lover's Pizza" textAlignment="CENTER" wrappingWidth="150.0">
                      <font>
                         <Font name="SansSerif Bold" size="16.0" />
                      </font></Text>
-                  <Text fill="WHITE" layoutX="208.0" layoutY="240.0" strokeType="OUTSIDE" strokeWidth="0.0" text="\$7 per pizza">
+                  <Text fill="WHITE" layoutX="245.0" layoutY="240.0" strokeType="OUTSIDE" strokeWidth="0.0" text="\$7 per pizza">
                      <font>
                         <Font name="SansSerif Bold" size="16.0" />
                      </font></Text>
-                  <Text fill="WHITE" layoutX="178.0" layoutY="344.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Veggie Hater's Pizza" textAlignment="CENTER" wrappingWidth="150.0">
+                  <Text fill="WHITE" layoutX="215.0" layoutY="344.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Veggie Hater's Pizza" textAlignment="CENTER" wrappingWidth="150.0">
                      <font>
                         <Font name="SansSerif Bold" size="16.0" />
                      </font></Text>
-                  <Text fill="WHITE" layoutX="208.0" layoutY="384.0" strokeType="OUTSIDE" strokeWidth="0.0" text="\$7 per pizza">
+                  <Text fill="WHITE" layoutX="245.0" layoutY="384.0" strokeType="OUTSIDE" strokeWidth="0.0" text="\$7 per pizza">
                      <font>
                         <Font name="SansSerif Bold" size="16.0" />
                      </font></Text>
-                  <Text fill="WHITE" layoutX="407.0" layoutY="55.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Our signature three-cheese pizza. Perfect for picky eaters, children's parties, and people who enjoy vanilla ice cream." textAlignment="CENTER" wrappingWidth="200.0">
+                  <Text fill="WHITE" layoutX="423.0" layoutY="54.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Our signature three-cheese pizza. Perfect for picky eaters, children's parties, and people who enjoy vanilla ice cream." textAlignment="CENTER" wrappingWidth="200.0">
                      <font>
                         <Font name="SansSerif Regular" size="12.0" />
                      </font></Text>
-                  <Text fill="WHITE" layoutX="407.0" layoutY="191.0" strokeType="OUTSIDE" strokeWidth="0.0" text="A must-have for people too sophisticated for bland cheese pizza. Instead, sink your teeth into the delectable slimy olives with the mushy tomatoes." textAlignment="CENTER" wrappingWidth="200.0">
+                  <Text fill="WHITE" layoutX="423.0" layoutY="191.0" strokeType="OUTSIDE" strokeWidth="0.0" text="A must-have for people too sophisticated for bland cheese pizza. Instead, sink your teeth into the delectable slimy olives with the mushy tomatoes." textAlignment="CENTER" wrappingWidth="200.0">
                      <font>
                         <Font name="SansSerif Regular" size="12.0" />
                      </font></Text>
-                  <Text fill="WHITE" layoutX="407.0" layoutY="349.0" strokeType="OUTSIDE" strokeWidth="0.0" text="In the mood for something with lots of meat and no greens? Look no further!" textAlignment="CENTER" wrappingWidth="200.0">
+                  <Text fill="WHITE" layoutX="423.0" layoutY="349.0" strokeType="OUTSIDE" strokeWidth="0.0" text="In the mood for something with lots of meat and no greens? Look no further!" textAlignment="CENTER" wrappingWidth="200.0">
                      <font>
                         <Font name="SansSerif Regular" size="12.0" />
                      </font></Text>
@@ -162,6 +164,22 @@
                      <font>
                         <Font name="SansSerif Bold" size="12.0" />
                      </font></Button>
+                  <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="14.0" layoutY="295.0" pickOnBounds="true" preserveRatio="true" />
+                  <ImageView fitHeight="125.0" fitWidth="125.0" layoutX="45.0" layoutY="13.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../../menuimages/cheesepizza.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="150.0" fitWidth="125.0" layoutX="45.0" layoutY="157.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../../menuimages/veggiepizza.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="150.0" fitWidth="125.0" layoutX="45.0" layoutY="301.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../../menuimages/pepperonipizza.png" />
+                     </image>
+                  </ImageView>
                </children></AnchorPane>
       </content>
     </Tab>
@@ -172,39 +190,39 @@
                   <Separator layoutY="148.0" prefWidth="900.0" style="-fx-background-color: red;" />
                   <Separator layoutY="292.0" prefWidth="900.0" style="-fx-background-color: red;" />
                   <Separator layoutY="440.0" prefWidth="900.0" style="-fx-background-color: red;" />
-                  <Text fill="WHITE" layoutX="206.0" layoutY="70.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Breadsticks">
+                  <Text fill="WHITE" layoutX="241.0" layoutY="69.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Breadsticks">
                      <font>
                         <Font name="SansSerif Bold" size="18.0" />
                      </font></Text>
-                  <Text fill="WHITE" layoutX="210.0" layoutY="94.0" strokeType="OUTSIDE" strokeWidth="0.0" text="\$3 per side">
+                  <Text fill="WHITE" layoutX="245.0" layoutY="95.0" strokeType="OUTSIDE" strokeWidth="0.0" text="\$3 per side">
                      <font>
                         <Font name="SansSerif Bold" size="18.0" />
                      </font></Text>
-                  <Text fill="WHITE" layoutX="203.0" layoutY="210.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Garlic Bread">
+                  <Text fill="WHITE" layoutX="238.0" layoutY="210.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Garlic Bread">
                      <font>
                         <Font name="SansSerif Bold" size="18.0" />
                      </font></Text>
-                  <Text fill="WHITE" layoutX="209.0" layoutY="233.0" strokeType="OUTSIDE" strokeWidth="0.0" text="\$2 per side">
+                  <Text fill="WHITE" layoutX="244.0" layoutY="233.0" strokeType="OUTSIDE" strokeWidth="0.0" text="\$2 per side">
                      <font>
                         <Font name="SansSerif Bold" size="18.0" />
                      </font></Text>
-                  <Text fill="WHITE" layoutX="232.0" layoutY="357.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Pasta">
+                  <Text fill="WHITE" layoutX="267.0" layoutY="357.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Pasta">
                      <font>
                         <Font name="SansSerif Bold" size="18.0" />
                      </font></Text>
-                  <Text fill="WHITE" layoutX="210.0" layoutY="380.0" strokeType="OUTSIDE" strokeWidth="0.0" text="\$5 per side">
+                  <Text fill="WHITE" layoutX="244.0" layoutY="380.0" strokeType="OUTSIDE" strokeWidth="0.0" text="\$5 per side">
                      <font>
                         <Font name="SansSerif Bold" size="18.0" />
                      </font></Text>
-                  <Text fill="WHITE" layoutX="408.0" layoutY="74.0" strokeType="OUTSIDE" strokeWidth="0.0" text="It's just bread in stick form. Yay, bread!" textAlignment="CENTER" wrappingWidth="200.0">
+                  <Text fill="WHITE" layoutX="420.0" layoutY="74.0" strokeType="OUTSIDE" strokeWidth="0.0" text="It's just bread in stick form. Yay, bread!" textAlignment="CENTER" wrappingWidth="200.0">
                      <font>
                         <Font name="SansSerif Regular" size="12.0" />
                      </font></Text>
-                  <Text fill="WHITE" layoutX="408.0" layoutY="222.0" strokeType="OUTSIDE" strokeWidth="0.0" text="A great side dish for a first date." textAlignment="CENTER" wrappingWidth="200.0">
+                  <Text fill="WHITE" layoutX="420.0" layoutY="221.0" strokeType="OUTSIDE" strokeWidth="0.0" text="A great side dish for a first date." textAlignment="CENTER" wrappingWidth="200.0">
                      <font>
                         <Font name="SansSerif Regular" size="12.0" />
                      </font></Text>
-                  <Text fill="WHITE" layoutX="408.0" layoutY="352.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Our country-famous pasta, with marinara sauce. Hold your expectations." textAlignment="CENTER" wrappingWidth="200.0">
+                  <Text fill="WHITE" layoutX="420.0" layoutY="354.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Our country-famous pasta, with marinara sauce. Hold your expectations." textAlignment="CENTER" wrappingWidth="200.0">
                      <font>
                         <Font name="SansSerif Regular" size="12.0" />
                      </font></Text>
@@ -220,6 +238,20 @@
                      <font>
                         <Font name="SansSerif Bold" size="12.0" />
                      </font></Button>
+                  <ImageView fitHeight="136.0" fitWidth="125.0" layoutX="45.0" layoutY="15.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../../menuimages/mozzsticks.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="150.0" fitWidth="125.0" layoutX="45.0" layoutY="159.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../../menuimages/garlicbread.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="150.0" fitWidth="125.0" layoutX="45.0" layoutY="301.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../../menuimages/pasta.png" />
+                     </image></ImageView>
                </children>
             </AnchorPane>
         </content>
@@ -231,29 +263,29 @@
                   <Separator layoutY="140.0" prefWidth="900.0" style="-fx-background-color: red;" />
                   <Separator layoutY="288.0" prefWidth="900.0" style="-fx-background-color: red;" />
                   <Separator layoutY="440.0" prefWidth="900.0" style="-fx-background-color: red;" />
-                  <Text fill="WHITE" layoutX="428.0" layoutY="38.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Soda">
+                  <Text fill="WHITE" layoutX="384.0" layoutY="38.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Soda">
                      <font>
                         <Font name="SansSerif Bold" size="18.0" />
                      </font></Text>
-                  <Text fill="WHITE" layoutX="350.0" layoutY="77.0" strokeType="OUTSIDE" strokeWidth="0.0" text="The perfect complement to any pizza. So perfect, in fact, that we considered making it the only drink available." textAlignment="CENTER" wrappingWidth="200.0">
+                  <Text fill="WHITE" layoutX="306.0" layoutY="64.0" strokeType="OUTSIDE" strokeWidth="0.0" text="The perfect complement to any pizza. So perfect, in fact, that we considered making it the only drink available." textAlignment="CENTER" wrappingWidth="200.0">
                      <font>
-                        <Font name="SansSerif Regular" size="12.0" />
+                        <Font name="SansSerif Regular" size="13.0" />
                      </font></Text>
-                  <Text fill="WHITE" layoutX="425.0" layoutY="189.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Water">
+                  <Text fill="WHITE" layoutX="381.0" layoutY="178.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Water">
                      <font>
                         <Font name="SansSerif Bold" size="18.0" />
                      </font></Text>
-                  <Text fill="WHITE" layoutX="350.0" layoutY="232.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Like the water from your top, only better!" textAlignment="CENTER" wrappingWidth="200.0">
+                  <Text fill="WHITE" layoutX="306.0" layoutY="222.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Like the water from your top, only better!" textAlignment="CENTER" wrappingWidth="200.0">
                      <font>
-                        <Font name="SansSerif Regular" size="12.0" />
+                        <Font name="SansSerif Regular" size="13.0" />
                      </font></Text>
-                  <Text fill="WHITE" layoutX="406.0" layoutY="332.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Sweet Tea">
+                  <Text fill="WHITE" layoutX="362.0" layoutY="332.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Sweet Tea">
                      <font>
                         <Font name="SansSerif Bold" size="18.0" />
                      </font></Text>
-                  <Text fill="WHITE" layoutX="350.0" layoutY="384.0" strokeType="OUTSIDE" strokeWidth="0.0" text="A Southern delicacy." textAlignment="CENTER" wrappingWidth="200.0">
+                  <Text fill="WHITE" layoutX="306.0" layoutY="373.0" strokeType="OUTSIDE" strokeWidth="0.0" text="A Southern delicacy." textAlignment="CENTER" wrappingWidth="200.0">
                      <font>
-                        <Font name="SansSerif Regular" size="12.0" />
+                        <Font name="SansSerif Regular" size="13.0" />
                      </font></Text>
                   <Button fx:id="addSoda" layoutX="740.0" layoutY="82.0" mnemonicParsing="false" style="-fx-background-color: gray;" text="Add to order" textFill="WHITE">
                      <font>
@@ -282,6 +314,20 @@
                   <ChoiceBox fx:id="sodaSize" layoutX="707.0" layoutY="43.0" prefWidth="150.0" style="-fx-background-color: gray;" />
                   <ChoiceBox fx:id="waterSize" layoutX="707.0" layoutY="183.0" prefWidth="150.0" style="-fx-background-color: gray;" />
                   <ChoiceBox fx:id="teaSize" layoutX="707.0" layoutY="326.0" prefWidth="150.0" style="-fx-background-color: gray;" />
+                  <ImageView fitHeight="150.0" fitWidth="125.0" layoutX="45.0" layoutY="7.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../../menuimages/coke.png" />
+                     </image></ImageView>
+                  <ImageView fitHeight="150.0" fitWidth="125.0" layoutX="45.0" layoutY="152.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../../menuimages/water.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="150.0" fitWidth="125.0" layoutX="45.0" layoutY="301.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../../menuimages/tea.png" />
+                     </image>
+                  </ImageView>
                </children>
             </AnchorPane>
         </content>
