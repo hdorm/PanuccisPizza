@@ -16,6 +16,7 @@ public class Main extends Application {
             Scene scene = new Scene(root);
             stage.setTitle("Panucci's Pizza");
             stage.getIcons().add(new Image("/tinypizzaicon.png"));
+            stage.setResizable(false);
             stage.setScene(scene);
             stage.show();
         } catch(Exception e) {
@@ -27,3 +28,4 @@ public class Main extends Application {
         launch(args);
     }
 }
+

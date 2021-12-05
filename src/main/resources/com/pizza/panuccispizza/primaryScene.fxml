@@ -17,9 +17,9 @@
       <content>
         <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0" style="-fx-background-color: dimgrey;">
                <children>
-                  <Separator layoutY="108.0" prefHeight="0.0" prefWidth="900.0" style="-fx-background-color: black;" />
-                  <Separator layoutY="259.0" prefWidth="900.0" style="-fx-background-color: black;" />
-                  <Separator layoutY="369.0" prefWidth="900.0" style="-fx-background-color: black;" />
+                  <Separator layoutY="108.0" prefHeight="0.0" prefWidth="900.0" style="-fx-background-color: red;" />
+                  <Separator layoutY="259.0" prefWidth="900.0" style="-fx-background-color: red;" />
+                  <Separator layoutY="369.0" prefWidth="900.0" style="-fx-background-color: red;" />
                   <Text fill="WHITE" layoutX="51.0" layoutY="65.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Size:">
                      <font>
                         <Font name="SansSerif Regular" size="25.0" />
@@ -111,9 +111,9 @@
       <content>
         <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0" style="-fx-background-color: dimgray;">
                <children>
-                  <Separator layoutY="147.0" prefHeight="0.0" prefWidth="900.0" style="-fx-background-color: black;" />
-                  <Separator layoutY="285.0" prefWidth="900.0" style="-fx-background-color: black;" />
-                  <Separator layoutY="440.0" prefWidth="900.0" style="-fx-background-color: black;" />
+                  <Separator layoutY="147.0" prefHeight="0.0" prefWidth="900.0" style="-fx-background-color: red;" />
+                  <Separator layoutY="285.0" prefWidth="900.0" style="-fx-background-color: red;" />
+                  <Separator layoutY="440.0" prefWidth="900.0" style="-fx-background-color: red;" />
                   <Text fill="WHITE" layoutX="202.0" layoutY="67.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Cheese Pizza">
                      <font>
                         <Font name="SansSerif Bold" size="16.0" />
@@ -169,9 +169,9 @@
         <content>
           <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
                <children>
-                  <Separator layoutY="148.0" prefWidth="900.0" style="-fx-background-color: black;" />
-                  <Separator layoutY="292.0" prefWidth="900.0" style="-fx-background-color: black;" />
-                  <Separator layoutY="440.0" prefWidth="900.0" style="-fx-background-color: black;" />
+                  <Separator layoutY="148.0" prefWidth="900.0" style="-fx-background-color: red;" />
+                  <Separator layoutY="292.0" prefWidth="900.0" style="-fx-background-color: red;" />
+                  <Separator layoutY="440.0" prefWidth="900.0" style="-fx-background-color: red;" />
                   <Text fill="WHITE" layoutX="206.0" layoutY="70.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Breadsticks">
                      <font>
                         <Font name="SansSerif Bold" size="18.0" />
@@ -228,9 +228,9 @@
         <content>
           <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
                <children>
-                  <Separator layoutY="140.0" prefWidth="900.0" style="-fx-background-color: black;" />
-                  <Separator layoutY="288.0" prefWidth="900.0" style="-fx-background-color: black;" />
-                  <Separator layoutY="440.0" prefWidth="900.0" style="-fx-background-color: black;" />
+                  <Separator layoutY="140.0" prefWidth="900.0" style="-fx-background-color: red;" />
+                  <Separator layoutY="288.0" prefWidth="900.0" style="-fx-background-color: red;" />
+                  <Separator layoutY="440.0" prefWidth="900.0" style="-fx-background-color: red;" />
                   <Text fill="WHITE" layoutX="428.0" layoutY="38.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Soda">
                      <font>
                         <Font name="SansSerif Bold" size="18.0" />
@@ -290,10 +290,10 @@
         <content>
           <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
                <children>
-                  <Separator layoutY="90.0" prefWidth="900.0" style="-fx-background-color: black;" />
-                  <Separator layoutY="188.0" prefWidth="900.0" style="-fx-background-color: black;" />
-                  <Separator layoutY="294.0" prefWidth="900.0" style="-fx-background-color: black;" />
-                  <Separator layoutY="381.0" prefWidth="900.0" style="-fx-background-color: black;" />
+                  <Separator layoutY="90.0" prefWidth="900.0" style="-fx-background-color: red;" />
+                  <Separator layoutY="188.0" prefWidth="900.0" style="-fx-background-color: red;" />
+                  <Separator layoutY="294.0" prefWidth="900.0" style="-fx-background-color: red;" />
+                  <Separator layoutY="381.0" prefWidth="900.0" style="-fx-background-color: red;" />
                   <Text fill="WHITE" layoutX="23.0" layoutY="54.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Items:">
                      <font>
                         <Font name="SansSerif Regular" size="18.0" />
